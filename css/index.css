@@ -1,0 +1,129 @@
+@charset "utf-8";
+*{margin:0;padding:0;}
+i,em{font-style:normal;}
+b,strong{font-weight:normal;}
+ul,ol,li{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:16px;font-weight:normal;}
+a,u{text-decoration:none!important;}
+input{outline:none;}
+img,a{display:block;}
+video:focus{outline:none;}
+
+/*清除浮动*/
+.clear {
+    clear: both
+}
+.clearfloat:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    zoom: 1;
+}
+
+.bannerCon{
+    padding-top: 50px;
+}
+.bannerCon{
+    width: 1000px;
+    margin: 0 auto;
+    background: #ddd;
+}
+.navCon,.introductCon,.totalCon,.sortCon{
+    width: 1000px;
+    margin: 0 auto 30px auto;
+    background: #ddd;
+}
+.banner{
+    width: 1000px;
+    height: 200px;
+}
+#nav{
+    overflow: hidden;
+}
+.navCon{
+    height: 50px;
+}
+.jump{
+    width: 25%;
+    float: left;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    height: 50px;
+    line-height: 50px;
+}
+.title{
+    height: 30px;
+    padding: 20px 30px 0;
+}
+.title p{
+    height: 30px;
+    float: left;
+    font-size: 16px;
+    display: block;
+    margin-left: 10px;
+    line-height: 30px;
+    font-weight: 700;
+}
+.line{
+    background: #000;
+    width: 4px;
+    float: left;
+    height: 30px;
+    display: block;
+}
+.head{
+    width: 150px;
+    height: 200px;
+    float: left;
+}
+.myself{
+    padding: 20px;
+    overflow: hidden;
+}
+.myself p{
+    float: left;
+    margin-left: 20px;
+    width: 790px;
+    word-wrap:break-word;
+}
+.gamers{
+    padding: 20px;
+    overflow: hidden;
+}
+.gamers p{
+    float: left;
+    margin-right: 20px;
+    width: 790px;
+    word-wrap:break-word;
+}
+.titleTwo p{
+    margin: 0 auto;
+    font-weight: 700;
+    width: 100px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 2px dotted #000;
+}
+.totalVideo{
+    overflow: hidden;
+    margin: 20px 0;
+}
+.total{
+    width: 500px;
+    height: 264px;
+    float: left;
+}
+.totalVideo p{
+    float: left;
+    word-wrap:break-word;
+    width: 470px;
+    margin-left:30px;
+}
+.sort{
+    height: 300px;
+}
